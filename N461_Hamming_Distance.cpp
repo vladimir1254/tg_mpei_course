@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/hamming-distance/
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -12,6 +13,6 @@ public:
            x=x/2;
             y=y/2;
         }
-        return move(i);
+        return i;
     }
 };
