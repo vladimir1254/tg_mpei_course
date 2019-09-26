@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/permutation-sequence/submissions/
+// https://leetcode.com/problems/permutation-sequence/
 class Solution {
 public:
     string getPermutation(int n, int k) {
@@ -10,7 +10,7 @@ public:
             num*=i;
            s[i-1]+=i; // 12345..n
         }
-     k--;//индекс строк начинается с 1.
+     k--;//индекс строк начинается с 1
         for(int i=0;i<n;i++)
         {
             num/=(n-i);//(n-1)!
